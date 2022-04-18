@@ -7,11 +7,11 @@ int main(){
         soma = d1+d2;
         
         if((soma % 2 == 0) && p == 0){
-            std::cout << "alice";
+            std::cout << "0\n";
         }
         else if ((soma %2 != 0) && p==1){
-            std::cout << "alice";
+            std::cout << "0\n";
         }
-        else std::cout << "bob";
+        else std::cout << "1\n";
    // }
 }
